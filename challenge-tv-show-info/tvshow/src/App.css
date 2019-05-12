@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --azure: #4F7CAC;
+  --columbiaBlue: #C0E0DE;
+  --jungleGreen: #162521;
+  --arsenic: #3C474B;
+  --turquoise: #9EEFE5;
+}
+body{
+background: var(--arsenic);
+color: var(--columbiaBlue);
+font-family: 'Kanit', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background: var(--jungleGreen);
+  color: var(--columbiaBlue);
+
+}
+
+.title{
+  font-size: 3rem;
+}
+
+.headerDate, .headerText{
+  margin-top: 3rem;
+}
+.showBox{
+  display: flex;
+  width: 60%;
+  border: 2px solid var(--turquoise);
+  margin: auto;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.episodeInfos{
+  width: 80%;
+  height: auto;
+  border: 1px solid var(--turquoise);
+  margin: 10px auto;
+  padding: 5px;
+}
+.image{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  flex: 1;
+}
+
+.image img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.titleInfos{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  
+}
+
+.boxInfos{
+  display: flex;
+}
+.airtame{
+  flex: 1;
+}
+
+.summary{
+  flex: 3;
+  text-align: justify;
+}
+
